@@ -20,3 +20,6 @@ document.querySelector('#multiple').addEventListener('click', function(){
     const b = Number(document.querySelector('#num2').value);
     document.querySelector('#result').textContent = a*b;
 });
+document.querySelector('#clear').addEventListener('click',function(){
+    document.querySelector('#result').textContent ="";
+})
